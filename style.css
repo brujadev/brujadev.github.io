@@ -166,3 +166,9 @@ h2 {
 .workTitle {
     font-family: 'Source Code Pro', monospace;
 }
+
+.desc {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+}
