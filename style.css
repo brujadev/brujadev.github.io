@@ -40,8 +40,13 @@ body#about {
     /* border-radius: 25px; */
     width: 100%;
     background: rbga(255, 255, 255, .8);
-    position: sticky;
+    position: fixed;
+    right: 0px;
     top: 0px;
+}
+
+.description {
+    margin-top: 100px;
 }
 
 .nav__item:not(:last-child) {
@@ -93,6 +98,10 @@ body#about {
     background: blue;
 }
 
+.main {
+    margin-top: 100px;
+}
+
 #main_text {
     padding: 3rem;
     margin: 0;
@@ -105,10 +114,11 @@ body#about {
 }
 
 .footer-wrapper {
-    position: absolute;
-    width: 100vw;
+    position: fixed;
+    width: 100%;
     left: 0;
     font-family: 'Source Code Pro', monospace;
+    bottom: 0px;
 }
 
 
@@ -122,6 +132,7 @@ body#about {
     text-align: center;
     background: linear-gradient(to left, rgba(155, 255, 0, .4), #ffff01);
     color: blue;
+    margin: 0px;
 }
 
 a {
@@ -171,4 +182,31 @@ h2 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-style: italic;
+}
+
+@media only screen and (max-width: 400px) {
+    .hand {
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain;
+    }
+    #main_text {
+        font-size: 22px;
+    }
+    .nav {
+        padding: 3rem 1rem 1rem .5rem;
+        right: 10px;
+        font-size: 14px;
+    }
+    /* .fun {
+        right: 5%;
+        top: 8%;
+    }
+    .portrait {
+        position: fixed;
+    }
+    .three-fourth {
+        grid-column: span 16;
+        font-size: 46px;
+    } */
 }
