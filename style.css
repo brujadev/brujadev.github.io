@@ -184,7 +184,7 @@ h2 {
     font-style: italic;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .hand {
         width: 100vw;
         height: 100vh;
@@ -197,16 +197,44 @@ h2 {
         padding: 3rem 1rem 1rem .5rem;
         right: 10px;
         font-size: 14px;
+        position: fixed;
     }
-    /* .fun {
+    .fun {
         right: 5%;
         top: 8%;
     }
     .portrait {
         position: fixed;
+        width: 200px;
+        height: 200px;
     }
     .three-fourth {
-        grid-column: span 16;
-        font-size: 46px;
-    } */
+        grid-column: span 11;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .highlight {
+        font-size: 30px;
+    }
+    #content {
+        grid-column: span 11;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .work {
+        width: 320px;
+        height: 210px;
+    }
+    .fs-video {
+        width: 320px;
+        height: 210px;
+    }
+    .work1 {
+        width: 315px;
+        height: 390px;
+    }
+    .say-her-name {
+        width: 320px;
+        height: 370px;
+    }
 }
